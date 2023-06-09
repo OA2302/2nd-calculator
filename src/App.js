@@ -19,6 +19,7 @@ function Calculatorapp() {
 
   return (
     <div>
+      <h1>OA2302 Calculator App</h1>
       <input type="text" value={input} readOnly />
       <br />
       <button onClick={() => handleButtonClick('7')}>7</button>
@@ -40,7 +41,9 @@ function Calculatorapp() {
       <button onClick={() => handleButtonClick('.')}>.</button>
       <button onClick={() => handleCalculate()}>=</button>
       <button onClick={() => handleButtonClick('+')}>+</button>
+      <footer>OA2302 • © 2023</footer>
     </div>
+  
   );
 }
 
